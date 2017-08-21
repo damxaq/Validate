@@ -22,7 +22,7 @@ public class Counter {
 	    return (Boolean[]) res.toArray(new Boolean[0]);
 	}
 
-	//czyszczenie umeru karty ze zbednych znakow
+	//czyszczenie numeru karty ze zbednych znakow
 	String clean(String n){
 	    n=n.replace("-","");
 	    n=n.replace(" ","");
